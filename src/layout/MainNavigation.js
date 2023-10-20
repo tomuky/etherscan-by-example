@@ -18,7 +18,7 @@ const MainNavigation = (props) => {
     return (
         <div className={`${classes.left_pane} ${leftPaneShowing&&classes.left_pane_mobile_show}`}>
             <Link to='/' className={`${classes.left_pane_title} ${scroll&&classes.left_pane_scroll_scrolled}`}>
-                Fast DeFi Tutorial
+                Etherscan by Example
             </Link>
             <NavigationList scrollHander={scrollHandler}/>
         </div>

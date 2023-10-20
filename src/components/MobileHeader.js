@@ -12,7 +12,7 @@ const MobileHeader = (props) => {
                 <img src={require("../images/hamburger-menu.png")}className={classes.header_icon} alt='menu'/>
             </div>
             <Link className={classes.mobile_header_middle} to="/">
-                Fast DeFi Tutorial
+                Etherscan by Example
             </Link>
             <div className={classes.mobile_header_right}></div>
         </div>

@@ -12,8 +12,8 @@ const NavigationList = (props) => {
         <div id='left_pane_scroll' className={classes.left_pane_scroll}>
 
             <NavigationLink to='welcome' title='Hello' icon='welcome-logo.png'/>
-            <NavigationLink to='first' title='First thing to try' icon='first-logo.png'/>
-
+            <NavigationLink to='what' title='What is Etherscan' icon='etherscan-logo.png'/>
+{/*
             <div className={classes.left_pane_divider}/>
 
             <NavigationLink to='what-is-defi' title='What is DeFi' icon='question-icon.png'/>
@@ -30,12 +30,12 @@ const NavigationList = (props) => {
 
             <div className={classes.left_pane_divider}/>
 
-            <NavigationLink to='redpill' title='Take the red pill' icon='redpill-icon.png'/>
+            <NavigationLink to='redpill' title='Take the red pill' icon='redpill-icon.png'/> */}
 
             <div className={classes.left_pane_divider}/>
 
-            <NavigationLinkExternal to='https://twitter.com/tomuky' title='Follow @tomuky' icon='twitter-logo.png'/>
-            <NavigationLinkExternal to='mailto:tom@fastdefitutorial.com' title='Email @tomuky' icon='email-icon.png'/>
+            <NavigationLinkExternal to='https://twitter.com/tomuky' title='Made by @tomuky' icon='twitter-logo.png'/>
+            {/* <NavigationLinkExternal to='mailto:tom@fastdefitutorial.com' title='Email @tomuky' icon='email-icon.png'/> */}
 
         </div>
     )

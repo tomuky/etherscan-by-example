@@ -8,12 +8,12 @@ const Welcome = () => {
         <>
             <TopicTitle title="Hello" icon="welcome-logo.png"/>
             <div className={classes.description}>
-                <p>This is Fast DeFi Tutorial.</p>
-                <p>DeFi is finance using the blockchain.</p>
-                <p>Easy. Straight to the point. Step by step.</p>
-                <p>Questions? You can reach out on <ExternalLink title='Twitter' to='https://twitter.com/tomuky' icon='twitter-logo.png'/></p>
-                <p>Or email <ExternalLink title='tom@fastdefitutorial.com' to='mailto:tom@fastdefitutorial.com' icon='email-icon.png'/></p>
-                <p><InternalLink title='Start here' to='/first' icon='first-logo.png'/></p>
+                <p>Learn how to use Etherscan with examples.</p>
+                <p>Use smart contracts more directly.</p>
+                <p>Rely less on frontends.</p>
+                <p>Empower yourself.</p>
+                {/* <p><InternalLink title='Start here' to='/first' icon='first-logo.png'/></p> */}
+                <p>Coming soon...</p>
             </div>
         </>
     )
