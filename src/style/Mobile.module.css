@@ -32,6 +32,6 @@
         cursor: pointer; /* pointless for mobile tho */
     }
     .mobile_header_right{
-        padding: 28px; /* acts as counter weight to keep middle in middle */
+        padding: 24px; /* acts as counter weight to keep middle in middle */
     }
 }

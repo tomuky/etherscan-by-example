@@ -8,7 +8,7 @@ const Welcome = () => {
         <>
             <TopicTitle title="Hello" icon="smart-contract-icon.png"/>
             <div className={classes.description}>
-                <p>Learn Etherscan with examples</p>
+                <p>Interact with Ethereum via Etherscan</p>
                 <p>Rely less on frontends</p>
                 {/* <p><InternalLink title='Start here' to='/first' icon='first-logo.png'/></p> */}
                 
