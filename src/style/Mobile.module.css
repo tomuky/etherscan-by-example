@@ -15,7 +15,7 @@
         border-bottom: none;
     }
     .header_icon{
-        height: 32px; width: 32px;
+        height: 24px; width: 24px;
         filter: invert(100%);
     }
     .mobile_header_middle{
