@@ -25,7 +25,7 @@ div.left_pane{
         height: auto;
         padding-bottom: 50px;
         min-height: 100%;
-        margin-top: 57px;
+        margin-top: 48px;
         flex-direction: column;
         color: rgb(240, 240, 240);
         background-color: rgb(45, 45, 45);
@@ -35,7 +35,7 @@ div.left_pane{
         left: 0;
         position: absolute;
         z-index: 2;
-        margin-top: 57px;
+        margin-top: 48px;
     }
 }
 
