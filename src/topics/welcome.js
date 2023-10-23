@@ -6,13 +6,12 @@ import classes from '../style/Topic.module.css';
 const Welcome = () => {
     return (
         <>
-            <TopicTitle title="Hello" icon="welcome-logo.png"/>
+            <TopicTitle title="Hello" icon="smart-contract-icon.png"/>
             <div className={classes.description}>
-                <p>Learn how to use Etherscan with examples.</p>
-                <p>Use smart contracts more directly.</p>
-                <p>Rely less on frontends.</p>
-                <p>Empower yourself.</p>
+                <p>Learn Etherscan with examples</p>
+                <p>Rely less on frontends</p>
                 {/* <p><InternalLink title='Start here' to='/first' icon='first-logo.png'/></p> */}
+                
                 <p>Coming soon...</p>
             </div>
         </>

@@ -11,7 +11,7 @@ const NavigationList = (props) => {
     return (
         <div id='left_pane_scroll' className={classes.left_pane_scroll}>
 
-            <NavigationLink to='welcome' title='Hello' icon='welcome-logo.png'/>
+            <NavigationLink to='welcome' title='Hello' icon='smart-contract-icon.png'/>
             <NavigationLink to='what' title='What is Etherscan' icon='etherscan-logo.png'/>
 {/*
             <div className={classes.left_pane_divider}/>
@@ -34,7 +34,7 @@ const NavigationList = (props) => {
 
             <div className={classes.left_pane_divider}/>
 
-            <NavigationLinkExternal to='https://twitter.com/tomuky' title='Made by @tomuky' icon='twitter-logo.png'/>
+            <NavigationLinkExternal to='https://twitter.com/tomuky' title='Built by @tomuky' icon='twitter-logo.png'/>
             {/* <NavigationLinkExternal to='mailto:tom@fastdefitutorial.com' title='Email @tomuky' icon='email-icon.png'/> */}
 
         </div>
