@@ -34,7 +34,7 @@ const NavigationList = (props) => {
 
             <div className={classes.left_pane_divider}/>
 
-            <NavigationLinkExternal to='https://twitter.com/etherscan-by-ex' title='Follow' icon='twitter-logo.png'/>
+            <NavigationLinkExternal to='https://twitter.com/etherscan_by_ex' title='Follow' icon='twitter-logo.png'/>
             <NavigationLinkExternal to='https://github.com/tomuky/etherscan-by-example' title='Contribute' icon='github-mark-white.png'/>
             {/* <NavigationLinkExternal to='mailto:tom@fastdefitutorial.com' title='Email @tomuky' icon='email-icon.png'/> */}
 
