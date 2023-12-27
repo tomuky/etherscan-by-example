@@ -13,24 +13,10 @@ const NavigationList = (props) => {
 
             <NavigationLink to='welcome' title='Hello' icon='smart-contract-icon.png'/>
             <NavigationLink to='what' title='What is Etherscan' icon='etherscan-logo.png'/>
-{/*
-            <div className={classes.left_pane_divider}/>
-
-            <NavigationLink to='what-is-defi' title='What is DeFi' icon='question-icon.png'/>
-            <NavigationLink to='must-knows' title='The Must-knows' icon='important-icon.png'/>
-            <NavigationLink to='get-a-wallet' title='Get a wallet' icon='metamask-logo.svg'/>
-            <NavigationLink to='get-coinbase' title='Get Coinbase' icon='coinbase-logo.png'/>
-            <NavigationLink to='track-your-portfolio' title='Track your portfolio' icon='zapper-logo.png'/>
 
             <div className={classes.left_pane_divider}/>
 
-            <NavigationGroup group='polygon' title='Try Polygon' icon='polygon-logo.png'/>
-            <NavigationGroup group='optimism' title='Try Optimism' icon='optimism-logo.png'/>
-            <NavigationGroup group='ethereum' title='Try Ethereum' icon='ethereum-logo.png'/>
-
-            <div className={classes.left_pane_divider}/>
-
-            <NavigationLink to='redpill' title='Take the red pill' icon='redpill-icon.png'/> */}
+            <NavigationLink to='check-address' title='Check address' icon='wallet-icon.png'/>
 
             <div className={classes.left_pane_divider}/>
 
